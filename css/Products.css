@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+
+html 
+{
+    scroll-behavior: smooth;
+    
+}
+
+
+
+.yellowbox
+{
+    width: 1400px;
+    height: 690px;
+    padding: 20px;
+    margin: 10px auto;
+    box-shadow: 0px 0px 30px 3px rgb(3, 39, 3);
+    border: 3px solid rgb(148, 136, 24);
+    
+    
+}
+
+.titleP{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+.redbox
+{
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    margin: 10px auto;
+    box-shadow: 0px 0px 30px 3px rgb(3, 39, 3);
+    border: 3px solid rgb(226, 118, 29);
+    background-color: rgb(11, 85, 54);
+    opacity: 0.85;
+    
+}
+
+.redbox:hover
+{
+    transform: translateY(-10px);
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.paragraph
+{
+    position: absolute; top: 170px; left: 10px;
+}
+
+div .paragraph p
+{
+    color: rgb(0, 0, 0);
+    font-family: "Papyrus", "Copperplate", fantasy;
+    font-weight: bold;
+}
+
+
+.price
+{
+    color:  rgb(148, 136, 24);
+    font-family: "Verdana", "Helvetica", fantasy;
+    font-weight: bold;
+}
+.picture
+{
+    position: absolute; left: 0px; top: 0px;
+}
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(148, 136, 24);
+  position: absolute; left: 0px; top: 110px;
+  width: 100%;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: rgb(12, 70, 0);
+  text-align: center;
+  padding: 3px 16px;
+  text-decoration: none;
+}
+
+
+.navbar a:hover {
+  background: rgb(12, 70, 0);
+  color: rgb(148, 136, 24);
+}
+
+.botton
+{
+    position: absolute; bottom: 6px; right: 6px; 
+    background-color: rgb(148, 136, 24); 
+    color: rgb(12, 70, 0); 
+    border-color: rgb(12, 70, 0); 
+    padding: 5px 5px;
+}
+
+.botton:hover
+{
+    background-color: rgb(12, 70, 0); 
+    color: rgb(148, 136, 24);
+    border-color: rgb(148, 136, 24);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .title{
+    position: relative;
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+    left: -85px;
+    top: 5px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+header .navigation{
+    position: relative;
+    display: flex;
+}
+
+header .navigation li {
+    list-style: none;
+}
+header .navigation li a:hover{
+    transform: translateY(-15px);
+    transition: 0.5s;
+}
+
+header .navigation li a{
+    display: inline-block;
+    color: rgb(196, 219, 65);
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+header .navigation li a:hover{
+    
+    color: rgb(148, 136, 24);
+}
+
+
+.sci{
+    position: absolute;
+    bottom: -1810px;
+    display: flex;
+}
+
+.sci li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sci li a{
+    position: relative;
+    display: inline;
+    margin-right: 20px;
+    transform: scale(0.5);
+    
+}
+
+.sci li a:hover{
+    transform: translateY(-15px);
+    transition: 0.5s;
+}
+
+
+#myInput {
+    background-image: url('/Pictures/search_icon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 30%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
